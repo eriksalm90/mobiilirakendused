@@ -19,6 +19,11 @@ namespace SecondApp
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.second_layout);
+            var text = Intent.GetStringExtra("editextvalue");
+
+            var textView = FindViewById<TextView>(Resource.Id.textView1);
+            textView.Text = text;
+
             // Create your application here
         }
     }

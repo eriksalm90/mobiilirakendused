@@ -1,0 +1,39 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Kalkulaator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/textView1"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textAlignment="center" />
+    <Button
+        android:text="Arvuta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="178.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3" />
+    <EditText
+        android:inputType="number"
+        android:layout_width="176.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4" />
+    <TextView
+        android:text="Vastus: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+</LinearLayout>
